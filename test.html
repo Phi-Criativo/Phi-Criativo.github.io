@@ -22,7 +22,8 @@
   const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
   });
-  document.getElementById("card").src = params.mcard;
+  document.getElementById("card").src = params.mCard;
+  document.getElementById("avatarModel").src = params.mModel;
 </script>
   </body>
     </html>
