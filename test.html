@@ -1,10 +1,4 @@
-const params = new Proxy(new URLSearchParams(window.location.search), {
-  get: (searchParams, prop) => searchParams.get(prop),
-});
-// Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
-let value = params.some_key; // "some_value"
-
-
+<html>
  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image.prod.js"></script>
@@ -14,12 +8,6 @@ let value = params.some_key; // "some_value"
   <body>
       <h1>texto recebido </h1>
   <input id="eduardogomes" value="">
-  <script>
-  const params = new Proxy(new URLSearchParams(window.location.search), {
-  get: (searchParams, prop) => searchParams.get(prop),
-  });
-  document.getElementById("eduardogomes").value = params.eduardogomes;
-</script>
     <a-scene mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/examples/image-tracking/assets/card-example/card.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
         <img id="card" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/examples/image-tracking/assets/card-example/card.png" />
@@ -32,4 +20,11 @@ let value = params.some_key; // "some_value"
         <a-gltf-model rotation="0 0 0 " position="0 0 0.1" scale="0.005 0.005 0.005" src="#avatarModel" animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate">
       </a-entity>
     </a-scene>
+        <script>
+  const params = new Proxy(new URLSearchParams(window.location.search), {
+  get: (searchParams, prop) => searchParams.get(prop),
+  });
+  document.getElementById("card").src = params.eduardogomes;
+</script>
   </body>
+    </html>
