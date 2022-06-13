@@ -67196,7 +67196,7 @@ rq(a){return this.YF(a)},
 YF(a){var s=0,r=A.R(t.f),q,p=2,o,n=[],m,l,k,j,i,h
 var $async$rq=A.S(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-m=A.aga("https","35.155.145.27","/"+a+"/clients",null)
+m=A.aga("https","www.phicriativo.com.br","/"+a+"/clients",null)
 A.f3("eduardoogmes "+m.goE())
 s=7
 return A.X(new A.Da(A.aF(t.Gf)).oB("GET",m,null),$async$rq)
@@ -67229,7 +67229,7 @@ YP(a,b){var s=0,r=A.R(t.f),q,p=2,o,n=[],m,l,k,j,i,h
 var $async$ru=A.S(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.X(new A.Da(A.aF(t.Gf)).oB("GET",A.aga("https","35.155.145.27","/"+b+"/models",A.E(["client-code",a],t.N,t.z)),null),$async$ru)
+return A.X(new A.Da(A.aF(t.Gf)).oB("GET",A.aga("https","www.phicriativo.com.br","/"+b+"/models",A.E(["client-code",a],t.N,t.z)),null),$async$ru)
 case 7:m=d
 j=m
 l=B.a7.cn(0,A.ase(A.ar4(j.e).c.a.h(0,"charset")).cn(0,j.x))
