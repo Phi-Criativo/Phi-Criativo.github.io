@@ -67015,7 +67015,7 @@ A.jA.prototype={
 Yf(a,b,c){var s
 if(B.b.q(A.a(["aura","ada","arch"],t.s),c)){if(A.c1()===B.M)s=B.c.q(a,".glb")||B.c.q(a,".gltf")
 else s=B.c.q(a,".reality")||B.c.q(a,".usdz")
-return s}return(B.c.q(a,".glb")||B.c.q(a,".gltf")||B.c.q(a,".obj"))&&B.c.q(b,".mind")},
+return s}return(B.c.q(a,".glb")||B.c.q(a,".gltf")||B.c.q(a,".obj")||B.c.q(a,".mp4")||B.c.q(a,".gif"))&&B.c.q(b,".mind")},
 n1(a,b){return this.a8Z(a,b)},
 a8Z(a,b){var s=0,r=A.R(t.H),q=this,p,o,n,m,l,k
 var $async$n1=A.S(function(c,d){if(c===1)return A.O(d,r)
