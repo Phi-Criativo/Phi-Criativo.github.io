@@ -71625,7 +71625,7 @@ var $async$$0=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:p=q.b
 o=q.c
 n=t.N
-m=A.aoo("https","www.backend.phicriativo.com.br","ar",A.H(["mindImg",u.O+p.w[o],"maxTrack","1","isVideo","true","models",B.ao.kh(A.H(["undefinedIdentifer","https://www.backend.phicriativo.com.br"+p.f[o]],n,n))],n,t.z)).gtM()
+m=A.aoo("https","www.backend.phicriativo.com.br","ar",A.H(["mindImg",u.O+p.w[o],"maxTrack","1","models",B.ao.kh(A.H(["undefinedIdentifer","https://www.backend.phicriativo.com.br"+p.f[o]],n,n))],n,t.z)).gtM()
 s=5
 return A.Y(A.tU(m),$async$$0)
 case 5:s=b?2:4
