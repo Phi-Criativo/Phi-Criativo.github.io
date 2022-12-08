@@ -71634,27 +71634,24 @@ $2(a,b){var s=null,r=this.b
 return A.h5(A.b2(A.aI4(r.w[b]),95,95),new A.ahu(this.a,r,b),A.cJ(r.r[b],A.ku(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s))},
 $S:26}
 A.ahu.prototype={
-$0(){var s=0,r=A.N(t.H),q=this,p,o,n,m,l,k
+$0(){var s=0,r=A.N(t.H),q=this,p,o,n,m,l,k,j
 var $async$$0=A.O(function(a,b){if(a===1)return A.K(b,r)
-while(true)switch(s){case 0:o=q.b
-n=q.c
-m=o.f[n].split(".")[1]
-l=t.N
-k=A.v(l,t.z)
-k.l(0,"mindImg",u.O+o.w[n])
-k.l(0,"maxTrack","1")
-if(m==="mp4"||m==="gif")k.l(0,"isVideo","true")
-k.l(0,"models",B.ao.kh(A.H(["undefinedIdentifer","https://www.backend.phicriativo.com.br"+o.f[n]],l,l)))
-p=A.aop("https","www.backend.phicriativo.com.br","ar",k).gtM()
+while(true)switch(s){case 0:p=q.b
+o=q.c
+n=p.f[o].split(".")[1]
+m=p.w[o]
+l=n==="mp4"||n==="gif"?"true":"false"
+k=t.N
+j=A.aop("https","www.backend.phicriativo.com.br","ar",A.H(["mindImg",u.O+m,"maxTrack","1","isVideo",l,"models",B.ao.kh(A.H(["undefinedIdentifer","https://www.backend.phicriativo.com.br"+p.f[o]],k,k))],k,t.z)).gtM()
 s=5
-return A.Y(A.tU(p),$async$$0)
+return A.Y(A.tU(j),$async$$0)
 case 5:s=b?2:4
 break
 case 2:s=6
-return A.Y(A.tW(p),$async$$0)
+return A.Y(A.tW(j),$async$$0)
 case 6:s=3
 break
-case 4:A.hv("pode n\xe3o ir pra essa url2: "+p)
+case 4:A.hv("pode n\xe3o ir pra essa url2: "+j)
 case 3:q.a.ar(new A.aht())
 return A.L(null,r)}})
 return A.M($async$$0,r)},
