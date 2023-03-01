@@ -24990,8 +24990,8 @@ while(true)switch(s){case 0:o=B.h.j(c.length)
 n=b?"true":"false"
 m=t.N
 l=A.r(m,m)
-for(q=0;q<c.length;++q)l.l(0,""+q,"http://www.backend.phicriativo.com.br"+c[q].b)
-p=A.awV("https","www.backend.phicriativo.com.br","ar",A.N(["mindImg","http://www.backend.phicriativo.com.br/home/ubuntu/phicriativo-backend/media/"+a,"maxTrack",o,"isVideo",n,"activateChromaKey","true","models",B.aP.kM(l)],m,t.z)).grW()
+for(q=0;q<c.length;++q)l.l(0,""+q,"https://www.backend.phicriativo.com.br"+c[q].b)
+p=A.awV("https","www.backend.phicriativo.com.br","ar",A.N(["mindImg",u.O+a,"maxTrack",o,"isVideo",n,"activateChromaKey","true","models",B.aP.kM(l)],m,t.z)).grW()
 A.fR().$1("url to launch: "+p)
 s=5
 return A.Q(A.rW(p),$async$a_X)
