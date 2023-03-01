@@ -24991,7 +24991,7 @@ n=b?"true":"false"
 m=t.N
 l=A.r(m,m)
 for(q=0;q<c.length;++q)l.l(0,""+q,"http://www.backend.phicriativo.com.br"+c[q].b)
-p=A.awV("http","www.backend.phicriativo.com.br","ar",A.N(["mindImg","http://www.backend.phicriativo.com.br/home/ubuntu/phicriativo-backend/media/"+a,"maxTrack",o,"isVideo",n,"activateChromaKey","true","models",B.aP.kM(l)],m,t.z)).grW()
+p=A.awV("https","www.backend.phicriativo.com.br","ar",A.N(["mindImg","http://www.backend.phicriativo.com.br/home/ubuntu/phicriativo-backend/media/"+a,"maxTrack",o,"isVideo",n,"activateChromaKey","true","models",B.aP.kM(l)],m,t.z)).grW()
 A.fR().$1("url to launch: "+p)
 s=5
 return A.Q(A.rW(p),$async$a_X)
@@ -87337,7 +87337,7 @@ l=m[l]
 m=l.a
 p=k==="mp4"||k==="gif"?"true":"false"
 o=t.N
-n=A.awV("https","www.backend.phicriativo.com.br","ar",A.N(["mindImg",u.O+m,"maxTrack","1","isVideo",p,"models",B.aP.kM(A.N(["undefinedIdentifer","https://www.phicriativo.com.br"+l.b],o,o))],o,t.z)).grW()
+n=A.awV("https","www.backend.phicriativo.com.br","ar",A.N(["mindImg",u.O+m,"maxTrack","1","isVideo",p,"models",B.aP.kM(A.N(["undefinedIdentifer","https://www.backend.phicriativo.com.br"+l.b],o,o))],o,t.z)).grW()
 A.fR().$1("url to launch: "+n)
 s=5
 return A.Q(A.rW(n),$async$$0)
