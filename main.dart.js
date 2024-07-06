@@ -25759,7 +25759,7 @@ n=b?"true":"false"
 m=t.N
 l=A.q(m,m)
 for(q=0;q<c.length;++q)l.n(0,""+q,"https://www.backend.phicriativo.com.br"+c[q].b)
-p=A.ayS("https","www.backend.phicriativo.com.br","ar",A.N(["mindImg",u.O+a,"maxTrack",o,"isVideo",n,"activateChromaKey","true","models",B.aS.l_(l)],m,t.z)).gtk()
+p=A.ayS("https","www.backend.phicriativo.com.br","ar",A.N(["mindImg",u.O+a,"maxTrack",o,"isVideo",n,"activateChromaKey","false","models",B.aS.l_(l)],m,t.z)).gtk()
 A.fW().$1("url to launch: "+p)
 s=5
 return A.U(A.td(p),$async$a14)
